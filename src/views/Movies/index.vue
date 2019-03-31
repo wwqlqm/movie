@@ -1,6 +1,8 @@
 <template>
     <div>
-        <headerrouter :title="title"></headerrouter>
+            <div class="header_one">
+                 <headerrouter :title="title" class="header"></headerrouter>
+            </div>
         <div class="middle">
             <router-link tag="div" to="/movies/city">地方</router-link>
             <router-link tag="div" to="/movies/nowPlaying">正在上映</router-link>
@@ -38,4 +40,7 @@
         height: 30px;
     }
     .middle div.router-link-active{border-bottom:red 1px solid;}
+    .header_one{
+       height:46px;
+    }
 </style>

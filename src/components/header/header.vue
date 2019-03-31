@@ -1,5 +1,7 @@
 <template>
+    <div>
     <div id="header"><span>{{title}}</span></div>
+    </div>
 </template>
 <script>
     export default {
@@ -24,8 +26,11 @@
         justify-content: center;
         align-items: center;
         font-size: 25px;
+        position: fixed;
+        top: 0;
     }
     #header span{
         color:white;
     }
+
 </style>

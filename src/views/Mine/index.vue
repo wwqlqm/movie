@@ -1,6 +1,8 @@
 <template>
     <div>
+        <div class="header">
         <headerrouter :title="title"></headerrouter>
+        </div>
         <login></login>
         <footerrouter></footerrouter>
     </div>
@@ -24,4 +26,7 @@
     }
 </script>
 <style>
+ .header{
+     height: 46px;
+ }
 </style>
